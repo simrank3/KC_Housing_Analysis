@@ -2,21 +2,21 @@
 
 Author: Simran Kaur
 
-![alt text](https://www.seattlemet.com/home-and-real-estate/2020/11/seattle-washington-home-sales-continue-to-defy-the-calendar-real-estate)
+![title](images/kc_wa.png)
 
 ## Problem
 
-A local real estate agency in Kings County, Washington wants to know which variables bring the most value to a house. They want to use this information to help their clients increase the value of their homes. 
+A local real estate agency in Kings County, Washington wants to know which variables add the most value to a house. They want to use this information to help their clients increase the value of their homes before selling them in the market.
 
-This analysis will create a multi regression model that can be used to determine which features of a house add the most value to it. 
+This analysis will create a multi regression model that can be used to determine which features of a house add the most value so that the price of the house can increase.  
 
 ## Data
 
-Data was be taken from the King County Housing dataset; it contains information on the size, location, condition, and other features of houses in King County, Washington. 
+Data was taken from the King County Housing dataset; it contains information on the size, location, condition, and other features of houses in King County, Washington. 
 
 ## Methods
 
-The first step in this process was Explanatory Data Analysis (EDA). This was split into two parts; the first part was focused on cleaning the data and the second part analyzed all of the features in the dataset. This included distinguishing between categorical, discrete and continuous features and visually plotting them. Price was finalized as the dependent value and an analysis was done on the relationships each variable held to price.
+The first step in this process was Explanatory Data Analysis (EDA). This was split into two parts; the first part was focused on cleaning the data and the second part analyzed all of the features in the dataset. This included distinguishing between categorical, discrete and continuous features and visually plotting them. Price was finalized as the dependent variable and an analysis was done on the relationships each variable holds to price.
 
 The second step in this process was running models using OLS. Three different combinations of features were assessed and the model with the highest R-squared was chosen. That model was then tested against the four assumptions of linear regression and validated by a train-test split.
 
@@ -48,11 +48,15 @@ For additional information, contact Simran Kaur at simran.kaur@flatironschool.co
 
 ## Repository Structure
 ```
-├── Images
-│   ├── Genres_With_the_Highest_ROI.png
-│   ├── Movie_Releases_Per_Year.png
-│   ├── Movie_Runtimes.png
-├── zippedData
+├── data
+├── images
+│   ├── all_features_pairplots.jpeg
+│   ├── Concluded_Featires_vs_Price.png
+│   ├── Correlation_Matrix.png
+│   ├── Features_vs_Price.png
+│   ├── kc_wa.png
+│   ├── Price_Distribution.png
 ├── student.ipynb
+├── CONTRIBUTING.md
 ├── presentation.pdf
 └── README.md
