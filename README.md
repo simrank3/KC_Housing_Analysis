@@ -45,7 +45,7 @@ The finalized model did not pass the linearity checks. It would be worthwhile to
 
 ## Further Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/simrank3/phase2-project/blob/main/student.ipynb) or review this [presentation]().
+See the full analysis in the [Jupyter Notebook](https://github.com/simrank3/phase2-project/blob/main/student.ipynb) or review this [presentation](https://github.com/simrank3/phase2-project/blob/main/presentation.pdf).
 
 For additional information, contact Simran Kaur at simran.kaur@flatironschool.com
 
